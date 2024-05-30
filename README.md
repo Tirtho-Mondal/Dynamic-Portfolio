@@ -55,8 +55,8 @@ To set up the project locally, follow these steps:
 
 4. **Import the database:**
     - Open phpMyAdmin.
-    - Create a new database (e.g., `portfolio_db`).
-    - Import the `portfolio.sql` file located in the `image/login/sql` directory.
+    - Create a new database (e.g., `portfolio`).
+    - Import the `portfolio.sql` file located in the `img/login/sql` directory.
 
 5. **Update the database configuration:**
     - Open `config.php` in the project root.
