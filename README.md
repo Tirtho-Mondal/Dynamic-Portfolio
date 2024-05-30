@@ -1,22 +1,12 @@
+<center>
+
 # Dynamic Portfolio
+
+</center>
 
 Welcome to my dynamic portfolio. This project showcases my personal and professional information including my home page, about section, timeline, projects, skills, and contact information. The portfolio is built using PHP and a XAMPP database.
 
-## Table of Contents
-- [Home](#home)
-- [About](#about)
-- [Timeline](#timeline)
-- [Projects](#projects)
-- [Skills](#skills)
-- [Contact](#contact)
-- [Login](#login)
-- [Messaging](#messaging)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Video Demo](#video-demo)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Home
 The home page is the landing page of the portfolio, providing a welcome message and an overview of the site.
@@ -44,7 +34,7 @@ The messaging section enables visitors to send me messages directly through the 
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
-- You have installed [XAMPP](https://www.apachefriends.org/index.html).
+- You have installed [XAMPP](https://www.apachefriends.org/download.html).(v3.3.0)
 - You have a basic understanding of PHP and MySQL.
 - You have a web browser to view the portfolio.
 
@@ -53,12 +43,12 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Tirtho-Mondal/Dynamic-Portfolio.git
     ```
 
 2. **Navigate to the project directory:**
     ```bash
-    cd your-repo-name
+    cd Dynamic-Portfolio
     ```
 
 3. **Start XAMPP and ensure Apache and MySQL are running.**
@@ -66,7 +56,7 @@ To set up the project locally, follow these steps:
 4. **Import the database:**
     - Open phpMyAdmin.
     - Create a new database (e.g., `portfolio_db`).
-    - Import the `portfolio_db.sql` file located in the `database` directory.
+    - Import the `portfolio.sql` file located in the `image/login/sql` directory.
 
 5. **Update the database configuration:**
     - Open `config.php` in the project root.
@@ -76,7 +66,7 @@ To set up the project locally, follow these steps:
       $servername = "localhost";
       $username = "root";
       $password = "";
-      $dbname = "portfolio_db";
+      $dbname = "portfolio";
 
       // Create connection
       $conn = new mysqli($servername, $username, $password, $dbname);
@@ -104,10 +94,9 @@ Navigate through the different sections of the portfolio to learn more about me 
 - **Messaging:** Send messages directly through the portfolio.
 
 ## Video Demo
-Watch the video demonstration of my portfolio [here](https://your-video-link.com).
+Watch the video demonstration of my portfolio [here](https://youtu.be/VcnHXi62VeM?si=qMiK2OYvD0ef1HW6).
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the code of conduct.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
